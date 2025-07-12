@@ -18,15 +18,15 @@
       box-shadow: 0 0 20px red;
     }
     header h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       margin: 0;
       color: #ff0000;
       text-shadow: 0 0 10px red;
-      animation: flicker 1.5s infinite;
     }
-    @keyframes flicker {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.5; }
+    .intro {
+      font-size: 1.1rem;
+      margin-top: 1rem;
+      color: #ddd;
     }
     section {
       padding: 2rem;
@@ -52,6 +52,23 @@
       border: 2px solid #ff0000;
       box-shadow: 0 0 10px red;
     }
+    .download-area {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .download-area a {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      background-color: red;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .download-area a:hover {
+      background-color: darkred;
+    }
     footer {
       text-align: center;
       padding: 1rem;
@@ -64,13 +81,43 @@
 </head>
 <body>
   <header>
-    <h1>Men KIRA. Garaňky stil bilen doly.</h1>
+    <h1>KIRA PUBGER saýtyna hoş geldiňiz!</h1>
+    <div class="intro">Bu saýtda PUBG üçin gerekli maglumatlary alyp bilersiňiz.</div>
   </header>
 
   <section>
     <h2>Men kim?</h2>
-    <p>KIRA — PUBG dünýäsindäki garaňky güýç. Ýeňmek meniň üçin maksat däl, bu meniň sungatym. Her ýeňiş — sahypa ýaly.</p>
+    <p>KIRA — PUBG dünýäsindäki garaňky güýç. Ýeňmek meniň üçin maksat däl, bu meniň sungatym.</p>
   </section>
 
   <section>
-    <h2>Galereýa: Öldürmeler</h
+    <h2>Galereýa: Öldürmeler</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x180.png?text=Kill+1" alt="Kill Highlight">
+      <img src="https://via.placeholder.com/300x180.png?text=Kill+2" alt="Kill Highlight">
+      <img src="https://via.placeholder.com/300x180.png?text=Kill+3" alt="Kill Highlight">
+    </div>
+  </section>
+
+  <section class="download-area">
+    <h2>Faýllary ýükle</h2>
+    <p>Bu ýerde gerekli faýllary saýlap alyp bilersiňiz:</p>
+    <a href="https://github.com/myrza077/Kira-Pubg-site/raw/main/sample-file.zip" download>Faýly ýükle</a>
+  </section>
+
+  <section>
+    <h2>Habarlaşmak</h2>
+    <ul>
+      <li>Telegram: <a href="https://t.me/kiratheplayer" target="_blank">@kiratheplayer</a></li>
+      <li>TikTok: <a href="https://tiktok.com/@kira_killer" target="_blank">@kira_killer</a></li>
+      <li>YouTube: <a href="https://youtube.com/@kira_pubgm" target="_blank">KIRA PUBGM</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    © 2025 KIRA. Garaňky güýjüň beýany.
+  </footer>
+</body>
+</html>
+
+
